@@ -1,12 +1,6 @@
 # AntiWeChat Vanced
 
-**🇬🇧 English** | [🇷🇺 Русский](docs/lang_icons/ru.png) | ...
-
-[![Release](https://img.shields.io/github/v/release/retvil/AntiWeChatVanced?sort=date)](https://github.com/retvil/AntiWeChatVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiWeChatVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
-
-**Повне видалення WeChat.Браузера та жорсткий захист пошуку за замовчуванням від захоплення — 28 вектор (VANCED) / 39 (EXTENDED)ів детекту, 10 пошуковиків, 10 мов інтерфейсу.**
-
-[🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md) | **🇺🇦 Українська** | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
+**🇬🇧 English** | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
 ## Що це?
 

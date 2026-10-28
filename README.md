@@ -4,7 +4,7 @@
 
 **Remove WeChat Browser completely and lock your default search against hijacking — 28 detection vectors (VANCED) / 39 detection vectors (EXTENDED), 10 search engines, 10 UI languages.**
 
-**🇬🇧 English** | [🇷🇺 Русский](docs/lang_icons/ru.png) | ...
+<details>\r\n<summary align="center">Язык интерфейса / Interface language</summary>\r\n\r\n**🇬🇧 English** | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)\r\n\r\n</details>\r\n
 
 ## What is this?
 
@@ -82,6 +82,7 @@ If the tool saved you from WeChat, you can support development:
 ## License
 
 MIT — see [LICENSE](LICENSE).
+
 
 
 
