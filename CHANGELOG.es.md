@@ -7,7 +7,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
 
 > La fuente de referencia es el [CHANGELOG.md](CHANGELOG.md) en inglés; esta traducción puede ir ligeramente por detrás.
 
-## [2.8.0] - 2026-10-22
+## [1.1.0] - 2026-10-22
 
 ### Añadido
 - **Escaneo de zone map de IE** — detecta entradas de zone map para dominios
@@ -241,4 +241,5 @@ Base de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 

@@ -1,5 +1,14 @@
 # AntiWeChat Vanced
 
+## 🌐 Languages
+
+Interface available in 10 languages:
+
+> 🇬🇧 English | 🇷🇺 Русский | 🇺🇦 Українська | 🇰🇿 Қазақша | 🇩🇪 Deutsch | 🇫🇷 Français | 🇪🇸 Español | 🇵🇱 Polski | 🇹🇷 Türkçe | 🇨🇳 中文
+
+The active language is auto-detected from the system locale; switch it with the dropdown in the top-right corner of the app (or this file's sibling `translations.py`).
+
+
 [![Release](https://img.shields.io/github/v/release/retvil/AntiWeChatVanced?sort=date)](https://github.com/retvil/AntiWeChatVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiWeChatVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
 **WeChat Browser-ді толық жою және әдепкі іздеуді ұрлаудан қатаң қорғау — 40 детект векторы, 10 іздеу жүйесі, 10 интерфейс тілі.**

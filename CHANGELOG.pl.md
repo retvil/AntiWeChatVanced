@@ -7,7 +7,7 @@ a projekt stosuje [Semantic Versioning](https://semver.org/spec/v2.0.0.html).
 
 > Źródłem prawdy jest angielski [CHANGELOG.md](CHANGELOG.md); to tłumaczenie może lekko odstawać.
 
-## [2.8.0] - 2026-10-22
+## [1.1.0] - 2026-10-22
 
 ### Dodano
 - **Skan mapy stref IE (zone map)** — wykrywa wpisy zone-map dla domen
@@ -222,4 +222,5 @@ Baza [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 

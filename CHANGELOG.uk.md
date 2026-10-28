@@ -7,7 +7,7 @@
 
 > Першоджерело — англійський [CHANGELOG.md](CHANGELOG.md); цей переклад може трохи відставати.
 
-## [2.8.0] - 2026-10-22
+## [1.1.0] - 2026-10-22
 
 ### Додано
 - **Скан зони IE (zone map)** — знаходить записи zone-map для доменів WeChatа
@@ -216,4 +216,5 @@
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 

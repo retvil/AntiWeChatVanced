@@ -7,7 +7,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 > Die englische [CHANGELOG.md](CHANGELOG.md) ist die maßgebliche Quelle; diese Übersetzung kann leicht hinterherhinken.
 
-## [2.8.0] - 2026-10-22
+## [1.1.0] - 2026-10-22
 
 ### Hinzugefügt
 - **IE-Zonemap-Scan** — findet Zonemap-Einträge für WeChat-Domains
@@ -225,4 +225,5 @@ Basis von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 

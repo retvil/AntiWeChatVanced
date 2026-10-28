@@ -7,7 +7,7 @@
 
 > 以英文 [CHANGELOG.md](CHANGELOG.md) 为准；本翻译可能略有滞后。
 
-## [2.8.0] - 2026-10-22
+## [1.1.0] - 2026-10-22
 
 ### 新增
 - **IE 区域映射扫描（zone map）** — 检测 WeChat 域名的 zone-map 条目
@@ -192,4 +192,5 @@
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 
