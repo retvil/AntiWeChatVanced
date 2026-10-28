@@ -22,3 +22,7 @@ Thumbs.db
 # Secrets
 .env
 .env.local
+
+# Design source (logo preview - not shipped in the build)
+logo_preview.png
+
