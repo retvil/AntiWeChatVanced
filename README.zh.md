@@ -10,11 +10,11 @@
 
 WeChat 安装的不只是一个浏览器 — 它通过四十种不同的系统机制悄悄把自己注册为默认搜索和默认浏览器：注册表关联、企业策略、浏览器配置文件设置，甚至 Chromium 配置文件内部的搜索引擎数据库。仅删除浏览器并不能撤销这一切。
 
-**AntiWeChat Vanced**（[TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 的 fork）会找出**全部 40 个劫持向量**，一键清除它们，然后通过 Windows 企业策略**将默认搜索硬性锁定**到你选择的搜索引擎 — 让任何东西都无法悄悄改回去。
+**AntiWeChat Vanced**（[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 的 fork）会找出**全部 28 个向量 (VANCED) / 39 (EXTENDED)**，一键清除它们，然后通过 Windows 企业策略**将默认搜索硬性锁定**到你选择的搜索引擎 — 让任何东西都无法悄悄改回去。
 
 ## 功能
 
-- **劫持扫描器** — 检测 40 个向量：安装路径、注册表 Uninstall 项、`UserChoice` 关联、`StartMenuInternet` 注册、`Software\WeChat` 键树、通过 `DefaultSearchProvider*` 策略的劫持、Chromium 配置文件的 `Preferences`、`Web Data`（SQLite）关键词、Firefox `search.json.mozlz4`、旧版 `SearchScopes`、自启动项、计划任务、Windows 服务、IME Switcher、文件关联、WeChat Disk 外壳集成、禁用的自启动、App Paths、快捷方式、ProgramData/Roaming 残留、hosts 条目、防火墙规则、URI 协议、浏览器扩展、wechat.ru cookies、“打开方式”关联、Prefetch/WER 痕迹、Defender 排除项、键盘布局、IE 起始页劫持、启动 URL 策略（`RestoreOnStartupURLs`）、Firefox 主页、IE 区域映射、RegisteredApplications 项、MUICache 痕迹、%TEMP% 安装程序、Store 应用（WeChat Music、Alice）、产品目录、本地数据目录、WeChat.DNS
+- **劫持扫描器** — 检测 28 个向量 (VANCED) / 39 个向量 (EXTENDED)：安装路径、注册表 Uninstall 项、`UserChoice` 关联、`StartMenuInternet` 注册、`Software\WeChat` 键树、通过 `DefaultSearchProvider*` 策略的劫持、Chromium 配置文件的 `Preferences`、`Web Data`（SQLite）关键词、Firefox `search.json.mozlz4`、旧版 `SearchScopes`、自启动项、计划任务、Windows 服务、IME Switcher、文件关联、WeChat Disk 外壳集成、禁用的自启动、App Paths、快捷方式、ProgramData/Roaming 残留、hosts 条目、防火墙规则、URI 协议、浏览器扩展、wechat.ru cookies、“打开方式”关联、Prefetch/WER 痕迹、Defender 排除项、键盘布局、IE 起始页劫持、启动 URL 策略（`RestoreOnStartupURLs`）、Firefox 主页、IE 区域映射、RegisteredApplications 项、MUICache 痕迹、%TEMP% 安装程序、Store 应用（WeChat Music、Alice）、产品目录、本地数据目录、WeChat.DNS
 - **一键清除** — 每个向量都有专属 remover；被锁定的数据库会如实报告，不会崩溃
 - **硬性搜索策略** — 通过 HKLM 策略（Chrome、Edge、Brave、Vivaldi、Opera 和 WeChat 浏览器）以及 Firefox/Waterfox 的 `policies.json`，将默认搜索锁定为 10 个搜索引擎之一（Google、Bing、DuckDuckGo、Brave Search、Startpage、Mojeek、Qwant、Ecosia、Yahoo、SearXNG）
 - **策略清理** — 从注册表中清除 WeChat 的 `DefaultSearchProvider*` 值
@@ -67,7 +67,7 @@ python main.py
 
 ## 作者与支持
 
-**Nod33Eset** — [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 的 fork。欢迎提交 Issues 和 PR。
+**Nod33Eset** — [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 的 fork。欢迎提交 Issues 和 PR。
 
 如果这个工具帮你摆脱了 WeChat，可以支持一下开发：
 
@@ -82,3 +82,5 @@ python main.py
 ## 许可证
 
 MIT — 见 [LICENSE](LICENSE)。
+
+

@@ -2,7 +2,7 @@
 
 [![Release](https://img.shields.io/github/v/release/retvil/AntiWeChatVanced?sort=date)](https://github.com/retvil/AntiWeChatVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiWeChatVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-**Kompletne usunięcie WeChat Browser i twarde zabezpieczenie wyszukiwarki domyślnej przed przejęciem — 40 wektorów detekcji, 10 wyszukiwarek, 10 języków interfejsu.**
+**Kompletne usunięcie WeChat Browser i twarde zabezpieczenie wyszukiwarki domyślnej przed przejęciem — 28 wektorów detekcji (VANCED) / 39 wektorów detekcji (EXTENDED), 10 wyszukiwarek, 10 języków interfejsu.**
 
 [🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md) | [🇺🇦 Українська](README.uk.md) | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | **🇵🇱 Polski** | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
@@ -10,11 +10,11 @@
 
 WeChat nie instaluje tylko przeglądarki — po cichu rejestruje się jako domyślna wyszukiwarka i przeglądarka przez czterdzieści różnych mechanizmów systemu: asocjacje w rejestrze, polityki enterprise, ustawienia profili przeglądarek, a nawet bazy wyszukiwarek wewnątrz profili Chromium. Samo usunięcie przeglądarki tego nie cofa.
 
-**AntiWeChat Vanced** (fork [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat)) znajduje **wszystkie 40 wektorów przejęcia**, usuwa je jednym kliknięciem, a następnie **twardo blokuje wyszukiwarkę domyślną** na wybranej przez Ciebie wyszukiwarce przez polityki enterprise Windows — żeby nic nie mogło po cichu przywrócić starych ustawień.
+**AntiWeChat Vanced** (fork [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)) znajduje **wszystkie 28 wektorów (VANCED) / 39 (EXTENDED) przejęcia**, usuwa je jednym kliknięciem, a następnie **twardo blokuje wyszukiwarkę domyślną** na wybranej przez Ciebie wyszukiwarce przez polityki enterprise Windows — żeby nic nie mogło po cichu przywrócić starych ustawień.
 
 ## Funkcje
 
-- **Skaner przejęć** — wykrywa 40 wektorów: ścieżki instalacji, wpisy Uninstall w rejestrze, asocjacja `UserChoice`, rejestracje `StartMenuInternet`, drzewa kluczy `Software\WeChat`, przejęcie przez polityki `DefaultSearchProvider*`, `Preferences` profili Chromium, słowa kluczowe w `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, wpisy autostartu, zaplanowane zadania, usługi Windows, IME Switcher, skojarzenia plików, integracja powłoki WeChat Disk, wyłączony autostart, App Paths, skróty, pozostałości w ProgramData/Roaming, wpisy hosts, reguły zapory, protokoły URI, rozszerzenia przeglądarek, ciasteczka wechat.ru, asocjacje „otwórz za pomocą“, ślady Prefetch/WER, wyjątki Defender, układy klawiatury, przejęcie strony startowej IE, polityki adresów startowych (`RestoreOnStartupURLs`), strona domowa Firefox, mapa stref IE, wpisy RegisteredApplications, ślady MUICache, instalatory w %TEMP%, aplikacje ze Store (WeChat Music, Alice), katalogi produktów, katalogi danych lokalnych, WeChat.DNS
+- **Skaner przejęć** — wykrywa 28 wektorów (VANCED) / 39 wektorów (EXTENDED): ścieżki instalacji, wpisy Uninstall w rejestrze, asocjacja `UserChoice`, rejestracje `StartMenuInternet`, drzewa kluczy `Software\WeChat`, przejęcie przez polityki `DefaultSearchProvider*`, `Preferences` profili Chromium, słowa kluczowe w `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, wpisy autostartu, zaplanowane zadania, usługi Windows, IME Switcher, skojarzenia plików, integracja powłoki WeChat Disk, wyłączony autostart, App Paths, skróty, pozostałości w ProgramData/Roaming, wpisy hosts, reguły zapory, protokoły URI, rozszerzenia przeglądarek, ciasteczka wechat.ru, asocjacje „otwórz za pomocą“, ślady Prefetch/WER, wyjątki Defender, układy klawiatury, przejęcie strony startowej IE, polityki adresów startowych (`RestoreOnStartupURLs`), strona domowa Firefox, mapa stref IE, wpisy RegisteredApplications, ślady MUICache, instalatory w %TEMP%, aplikacje ze Store (WeChat Music), katalogi produktów, katalogi danych lokalnych, WeChat.DNS
 - **Usuwanie jednym kliknięciem** — każdy wektor ma własny remover; zablokowane bazy są uczciwie raportowane, bez crashy
 - **Twarda polityka wyszukiwania** — blokuje wyszukiwarkę domyślną na jednej z 10 wyszukiwarek (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) przez polityki HKLM dla Chrome, Edge, Brave, Vivaldi, Opera i WeChat Browser + `policies.json` dla Firefox/Waterfox
 - **Czyszczenie polityk** — usuwa wartości `DefaultSearchProvider*` WeChata z rejestru
@@ -67,7 +67,7 @@ Budowa własnego EXE: uruchom `build.bat` (PyInstaller, wynik w `dist/`).
 
 ## Autor i wsparcie
 
-**Nod33Eset** — fork [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat). Issues i PR mile widziane.
+**Nod33Eset** — fork [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex). Issues i PR mile widziane.
 
 Jeśli narzędzie uwolniło Cię od WeChata — możesz wesprzeć rozwój:
 
@@ -82,3 +82,5 @@ Jeśli narzędzie uwolniło Cię od WeChata — możesz wesprzeć rozwój:
 ## Licencja
 
 MIT — zob. [LICENSE](LICENSE).
+
+
