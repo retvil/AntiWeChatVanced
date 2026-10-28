@@ -160,7 +160,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 1.3 форкі.
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 форкі.
 
 ### Қосылды
 - **Іздеу hijack сканері** — WeChatтің әдепкі іздеу/браузер болып тіркелуіне
@@ -206,7 +206,7 @@
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) базасы:
+[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) базасы:
 - WeChat Browser процестерін аяқтау (`browser.exe`, `wechat.exe`)
 - Орнату жолдарын іздеу
 - Реестрдегі Uninstall жазбаларын тазарту
@@ -217,3 +217,4 @@
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+

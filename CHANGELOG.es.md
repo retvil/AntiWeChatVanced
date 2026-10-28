@@ -178,7 +178,7 @@ y este proyecto se adhiere al [Semantic Versioning](https://semver.org/spec/v2.0
 
 ## [2.0.0] - 2026-10-20
 
-Fork de [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 1.3.
+Fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ### Añadido
 - **Escáner de secuestros de búsqueda** — detecta los 11 vectores que
@@ -229,7 +229,7 @@ Fork de [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 1.3.
 
 ## [1.3.0] - upstream
 
-Base de [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat):
+Base de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
 - Terminación de los procesos de WeChat Browser (`browser.exe`,
   `wechat.exe`)
 - Búsqueda de rutas de instalación
@@ -241,3 +241,4 @@ Base de [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat):
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
