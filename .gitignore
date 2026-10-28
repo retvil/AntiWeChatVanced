@@ -9,9 +9,6 @@ __pycache__/
 # Build artifacts
 build/
 dist/
-*.spec
-*.spec.bak
-*.spec.old
 
 # Packaging
 *.egg-info/
