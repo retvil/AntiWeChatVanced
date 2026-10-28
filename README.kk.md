@@ -14,10 +14,10 @@ WeChat жай ғана браузер орнатпайды — ол жүйені
 
 ## Мүмкіндіктер
 
-- **Ұрлау сканері** — 40 векторды анықтау: орнату жолдары, реестрдегі Uninstall жазбалары, `UserChoice` ассоциациясы, `StartMenuInternet` тіркелулері, `Software\WeChat` кілттер ағаштары, `DefaultSearchProvider*` саясаттары арқылы ұрлау, Chromium профильдерінің `Preferences` параметрлері, `Web Data` (SQLite) кілт сөздері, Firefox `search.json.mozlz4`, legacy `SearchScopes`, автозапуск, тапсырмалар жоспарлаушы, Windows қызметтері, Punto Switcher, файлдық байланыстырулар, WeChat Disk интеграциясы, өшірілген автозапуск, App Paths, жарлықтар, ProgramData/Roaming қалдықтары, hosts жазбалары, брандмауэр ережелері, URI-протоколдар, браузер кеңейтулері, wechat.ru cookie файлдары, «көмегімен ашу» ассоциациялары, Prefetch/WER іздері, Defender ерекшеліктері, пернетақта орналасулары, IE бастапқы бетін ұрлау, бастапқы URL саясаттары (`RestoreOnStartupURLs`), Firefox басты беті, IE аймақ картасы, RegisteredApplications жазбалары, MUICache іздері, %TEMP% орнатқыштары, Store қосымшалары (WeChat Music, Alice), өнім каталогтары, жергілікті деректер каталогтары, WeChat.DNS
+- **Ұрлау сканері** — 40 векторды анықтау: орнату жолдары, реестрдегі Uninstall жазбалары, `UserChoice` ассоциациясы, `StartMenuInternet` тіркелулері, `Software\WeChat` кілттер ағаштары, `DefaultSearchProvider*` саясаттары арқылы ұрлау, Chromium профильдерінің `Preferences` параметрлері, `Web Data` (SQLite) кілт сөздері, Firefox `search.json.mozlz4`, legacy `SearchScopes`, автозапуск, тапсырмалар жоспарлаушы, Windows қызметтері, IME Switcher, файлдық байланыстырулар, WeChat Disk интеграциясы, өшірілген автозапуск, App Paths, жарлықтар, ProgramData/Roaming қалдықтары, hosts жазбалары, брандмауэр ережелері, URI-протоколдар, браузер кеңейтулері, wechat.ru cookie файлдары, «көмегімен ашу» ассоциациялары, Prefetch/WER іздері, Defender ерекшеліктері, пернетақта орналасулары, IE бастапқы бетін ұрлау, бастапқы URL саясаттары (`RestoreOnStartupURLs`), Firefox басты беті, IE аймақ картасы, RegisteredApplications жазбалары, MUICache іздері, %TEMP% орнатқыштары, Store қосымшалары (WeChat Music, Alice), өнім каталогтары, жергілікті деректер каталогтары, WeChat.DNS
 - **Бір батырмамен жою** — әр вектордың өз remover-ы бар; бұғатталған базалар шынайы репортталады, крашсыз
-- **Қатаң іздеу саясаты** — іздеуді 10 іздеу жүйесінің біреуіне (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) бекітеді: Chrome, Edge, Brave, Vivaldi, Opera және Яндекс Browser үшін HKLM-саясаттар + Firefox/Waterfox үшін `policies.json`
-- **Саясат тазарту** — Яндекс `DefaultSearchProvider*` мәндерін реестрден тазартады
+- **Қатаң іздеу саясаты** — іздеуді 10 іздеу жүйесінің біреуіне (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) бекітеді: Chrome, Edge, Brave, Vivaldi, Opera және WeChat Browser үшін HKLM-саясаттар + Firefox/Waterfox үшін `policies.json`
+- **Саясат тазарту** — WeChat `DefaultSearchProvider*` мәндерін реестрден тазартады
 - **10 интерфейс тілі** — ru, en, uk, kk, de, fr, es, pl, tr, zh; жүйе тілі автоматты анықталады
 - **Жеңіл интерфейс** — ttkbootstrap, вертикальді компоновка, бекітілген статус-бар және футер
 
@@ -35,7 +35,7 @@ WeChat жай ғана браузер орнатпайды — ол жүйені
 [Releases](https://github.com/retvil/AntiWeChatVanced/releases) бетінен жүктеп алыңыз:
 
 - **Windows** — `AntiWeChatVanced.exe` (портативті, бір файл, ~35 МБ) — WeChat Browser және WeChat Search жою
-- **Windows** — `AntiWeChatExtended.exe` (портативті, бір файл, ~35 МБ) — Яндекстің барлық өнімдерін жою (WeChat Disk, Punto Switcher тарихы, жүйелік іздер, Store қосымшалары, WeChat.DNS)
+- **Windows** — `AntiWeChatExtended.exe` (портативті, бір файл, ~35 МБ) — WeChatтің барлық өнімдерін жою (WeChat Disk, IME Switcher тарихы, жүйелік іздер, Store қосымшалары, WeChat.DNS)
 
 **Әкімші ретінде** іске қосыңыз — HKLM-саясаттар мен реестр тазартуы жоғарылау құқықтарды қажет етеді.
 
@@ -54,8 +54,8 @@ python main.py
 
 ## Пайдалану
 
-1. **Процессерді тоқтату** → **Яндексті іздеу** → **Яндексті жою** — браузердің өзін жоямыз.
-2. **Іздеу ұрлауын сканерлеу** — Яндекс жүйеге қалай енгенін толық көрсетеді.
+1. **Процессерді тоқтату** → **WeChatті іздеу** → **WeChatті жою** — браузердің өзін жоямыз.
+2. **Іздеу ұрлауын сканерлеу** — WeChat жүйеге қалай енгенін толық көрсетеді.
 3. **Ұрлауды жою** — алдымен барлық браузерді жабыңыз, соснын табылғанның бәрін алып тастаңыз.
 4. Іздеу жүйесін таңдаңыз → **Саясатты қолдану** — әдепкі іздеу жүйе деңгейінде бекітілді.
 
@@ -63,13 +63,13 @@ python main.py
 
 - **Неге әкімші?** Іздеу саясаттары HKLM-де тұрады, ұрлау тазартуы жүйелік реестрге тиеді — жоғары құқықтар керек.
 - **Нәтижелерде «Database locked»?** Тазарту кезінде Chromium браузері істе тұрған. Барлық браузерді жабып, жоюды қайталаңыз.
-- **Іздеу саясатын қалай алып тастауға болады?** **Саясатты қолдану**... **Яндекс саясатын алып тастау** батырмасы саясат мәндерін тазартады; Firefox-та `distribution\policies.json` файлын жоюға болады.
+- **Іздеу саясатын қалай алып тастауға болады?** **Саясатты қолдану**... **WeChat саясатын алып тастау** батырмасы саясат мәндерін тазартады; Firefox-та `distribution\policies.json` файлын жоюға болады.
 
 ## Автор және қолдау
 
 **Nod33Eset** — [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) форкі. Issues мен PR — қош келдіңіз.
 
-Егер құрал сізді Яндекстен құтқарса — дамуды қолдауға болады:
+Егер құрал сізді WeChatтен құтқарса — дамуды қолдауға болады:
 
 **Крипта:**
 

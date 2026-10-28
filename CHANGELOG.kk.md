@@ -10,15 +10,15 @@
 ## [2.8.0] - 2026-10-22
 
 ### Қосылды
-- **IE аймақ картасы сканы (zone map)** — Яндекс домендерінің zone-map
+- **IE аймақ картасы сканы (zone map)** — WeChat домендерінің zone-map
   жазбаларын табады («сенімді сайттар» қалдықтары); жою доменнің ішкі ағашын
   алып тастайды (алдымен экспорт)
 - **RegisteredApplications сканы** — әдепкі қосымшалар метадеректеріндегі
-  Яндекс жазбаларын табады; жою мәнді өшіреді (алдымен экспорт)
-- **MUICache сканы** — Яндекс орындалатын файлдарының іске қосу іздерін
+  WeChat жазбаларын табады; жою мәнді өшіреді (алдымен экспорт)
+- **MUICache сканы** — WeChat орындалатын файлдарының іске қосу іздерін
   табады; жою кеш мәнін өшіреді (алдымен экспорт)
 - **%TEMP% ішіндегі орнатқыш іздері** — scan_traces енді пайдаланушының
-  уақытша папкасында қалған Яндекс орнатқыштарын да репорттайды
+  уақытша папкасында қалған WeChat орнатқыштарын да репорттайды
 - **Per-user өнім каталогтары** — scan_product_dirs енді
   `%LOCALAPPDATA%\Programs\WeChat*` жолын да қамтиды (WeChat Music /
   Messenger / Translate legacy-орнатулары), браузер папкасы шығарылып
@@ -27,43 +27,43 @@
   жолының астында жатқан процестерді де матчтайды (crashpad, updater),
   тек browser.exe/wechat.exe атауларының тар тізімі емес
 - **Бастапқы URL hijack сканы** — `RestoreOnStartupURLs` enterprise-саясаттарындағы
-  Яндекс URL-дарын табады (Edge, Chrome, Chromium, Brave, Vivaldi, Opera,
-  Яндекс Browser); жою Яндекс мәндерін тазартады
+  WeChat URL-дарын табады (Edge, Chrome, Chromium, Brave, Vivaldi, Opera,
+  WeChat Browser); жою WeChat мәндерін тазартады
 - **Firefox басты беті hijack сканы** — Firefox/Waterfox `prefs.js`
-  ішіндегі Яндекске апаратын `browser.startup.homepage` табады; жою файлды
+  ішіндегі WeChatке апаратын `browser.startup.homepage` табады; жою файлды
   қайта жазады (алдымен бекап)
 
 ## [2.7.0] - 2026-10-21
 
 ### Қосылды
-- **WeChat.DNS сканы** (Extended) — Яндекс DNS серверлерімен (77.88.8.x
+- **WeChat.DNS сканы** (Extended) — WeChat DNS серверлерімен (77.88.8.x
   basic/safe/family) бапталған желі адаптерлерін табады; жою адаптерге
   автоматты DNS қайтарады; растаумен
-- **Бастапқы бет hijack сканы** — Яндекс/wechat.com көрсететін legacy IE басты
+- **Бастапқы бет hijack сканы** — WeChat/wechat.com көрсететін legacy IE басты
   бетін (`HKCU\...\Internet Explorer\Main\Start Page`) табады; жою әдепкіні
   қайтарады (еккі басылым)
 
 ## [2.6.0] - 2026-10-21
 
 ### Қосылды
-- **Extended басылымы**: Store (Appx) қосымша сканы — WeChat Music, Alice,
-  Messenger және басқа Яндекс Store қосымшаларын табады,
+- **Extended басылымы**: Store (Appx) қосымша сканы — WeChat Music, Messenger,
+  Messenger және басқа WeChat Store қосымшаларын табады,
   `Remove-AppxPackage` арқылы жояды
 - **Extended басылымы**: `Program Files\WeChat\` астындағы браузерлік емес
-  өнім каталогтарын скан (WeChat Disk, Punto Switcher, IME, ...) — жою
+  өнім каталогтарын скан (WeChat Disk, WeChat IME Switcher, IME, ...) — жою
   алдында бекап
 - **Extended басылымы**: `%LOCALAPPDATA%\WeChat\` астындағы браузерлік емес
-  жергілікті деректер сканы (Punto Switcher жергілікті деректері, WeChat
+  жергілікті деректер сканы (WeChat IME Switcher жергілікті деректері, WeChat
   Disk апдейтері, Beta жинақтары) — растаумен, жою алдында бекап
-- **Extended басылымы**: «Kill Processes» енді тек браузерді емес, Яндекстің
-  барлық өнім процестерін (WeChat Disk, Punto Switcher, Store қосымшалары)
+- **Extended басылымы**: «Kill Processes» енді тек браузерді емес, WeChatтің
+  барлық өнім процестерін (WeChat Disk, WeChat IME Switcher, Store қосымшалары)
   аяқтайды
 
 ## [2.5.0] - 2026-10-21
 
 ### Қосылды
 - Бір код базасынан екі басылым: **AntiWeChatVanced** (WeChat Browser +
-  WeChat Search жою) және **AntiWeChatExtended** (Яндекстің барлық
+  WeChat Search жою) және **AntiWeChatExtended** (WeChatтің барлық
   өнімдері) — `profiles.py` ішіндегі өнім профильдері скан ауқымын таңдайды,
   ортақ GUI `app.py` ішінде, жұқа кіру нүктелері `main.py` / `main_extended.py`
 - `build.bat` енді екі EXE де жинайды
@@ -82,7 +82,7 @@
   Prefetch / CrashDumps / WER іздері, Windows Defender ерекшеліктері,
   пайдаланушы пернетақта орналасулары (WeChat IME)
 - Растау: пайдаланушы деректеріне қатысты табылғандар (WeChat Disk файлдары,
-  Punto Switcher тарихы, кеңейтулер, cookie файлдары, Defender ерекшеліктері)
+  WeChat IME Switcher тарихы, кеңейтулер, cookie файлдары, Defender ерекшеліктері)
   жою алдында нақты қосымша растауды қажет етеді
 - `.lnk` байт-детекті, hosts жолдарын сүзгілеу, брандмауэр шығысын парсинг
   және consent-префикстер қамтуы үшін юнит-тесттер
@@ -91,7 +91,7 @@
 
 ### Қосылды
 - 13-ші–15-ші hijack векторлары: Windows қызметтері (реестр бойынша скан,
-  `sc stop` + `sc delete` арқылы жою), Punto Switcher (`punto` маркері бойынша
+  `sc stop` + `sc delete` арқылы жою), WeChat IME Switcher (`ime` маркері бойынша
   детект), файлдық байланыстырулар (`FileExts\<ext>\UserChoice` ProgId сканы
   + жою)
 - Сканнан кейінгі таңдау диалогы: «барлығы немесе ештеңе» орнына нақты қай
@@ -100,7 +100,7 @@
   `%APPDATA%\AntiWeChatVanced\exclusions.json` ішіне сақтауға болады —
   келесі скандар оларды автоматты түрде таңдамайды, бірақ диалогта таңдатылып
   тұрады; шығарып тастауларды диалогтан қайта орнатуға болады
-- Шығарып тастаулардың сақталуы және Punto Switcher маркері үшін юнит-тесттер
+- Шығарып тастаулардың сақталуы және WeChat IME Switcher маркері үшін юнит-тесттер
 
 ## [2.2.0] - 2026-10-20
 
@@ -108,7 +108,7 @@
 - Жою алдында бекап: әр қозғалған реестр кілті / профиль файлы жою алдында
   `%APPDATA%\AntiWeChatVanced\backup\<timestamp>\` ішіне экспортталады
 - Операциялар журналы: `%APPDATA%\AntiWeChatVanced\antiwechat.log`
-- 12-ші hijack векторы: Windows Task Scheduler жазбалары (Яндекс апдейтер
+- 12-ші hijack векторы: Windows Task Scheduler жазбалары (WeChat апдейтер
   тапсырмалары)
 - HKCU Chromium саясаттарының сканы/тазартуы (per-user саясаттар, бұрын тек
   HKLM)
@@ -138,7 +138,7 @@
 ## [2.1.2] - 2026-10-20
 
 ### Өзгерді
-- Қосымша тақырыбы «Удаление Яндекс» / «Remove WeChat» (ru/en/uk) болып
+- Қосымша тақырыбы «Удаление WeChat» / «Remove WeChat» (ru/en/uk) болып
   қысқартылды
 - Футер оң жақ төменгі бұрышқа бекітілді: автор, нұсқа және GitHub
   сілтемесі
@@ -163,17 +163,17 @@
 [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 1.3 форкі.
 
 ### Қосылды
-- **Іздеу hijack сканері** — Яндекстің әдепкі іздеу/браузер болып тіркелуіне
+- **Іздеу hijack сканері** — WeChatтің әдепкі іздеу/браузер болып тіркелуіне
   қолданатын 11 векторды анықтайды:
   - дискідегі орнату каталогтары
   - реестрдегі Uninstall жазбалары (HKLM, WOW6432Node, HKCU)
   - Windows әдепкі-браузер ассоциациясы (http/https үшін `UserChoice` ProgId)
   - `StartMenuInternet` браузер клиент тіркелулері
   - жеке `Software\WeChat` кілт ағаштары (HKCU/HKLM/WOW6432Node)
-  - `DefaultSearchProvider*` enterprise-саясаттары арқылы hijack (Яндекстің
+  - `DefaultSearchProvider*` enterprise-саясаттары арқылы hijack (WeChatтің
     өзін бекітудің қатты жолы)
   - Chromium профильдерінің per-profile `Preferences` JSON (Chrome, Edge,
-    Brave, Vivaldi, Яндекс Browser)
+    Brave, Vivaldi, WeChat Browser)
   - Chromium `Web Data` SQLite базаларындағы іздеу жүйелерінің кілт сөз
     жолдары
   - Firefox/Waterfox `search.json.mozlz4` (құрамында pure-Python LZ4 блок
@@ -190,10 +190,10 @@
   (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia,
   Yahoo, SearXNG):
   - Chromium тұқымдасы HKLM `SOFTWARE\Policies\...` `DefaultSearchProvider*`
-    мәндері арқылы (Chrome, Edge, Brave, Vivaldi, Opera, Яндекс Browser)
+    мәндері арқылы (Chrome, Edge, Brave, Vivaldi, Opera, WeChat Browser)
   - Firefox/Waterfox `distribution\policies.json` арқылы (`SearchEngines` +
     `LockDefaultSearchEngine` + `PreventSearchEngineInstall`)
-- **«Яндекс саясаттарын жою»** батырмасы — Яндекс `DefaultSearchProvider*`
+- **«WeChat саясаттарын жою»** батырмасы — WeChat `DefaultSearchProvider*`
   саясат мәндерін реестрден тазартады
 - **10 UI тілі** (ru, en, uk, kk, de, fr, es, pl, tr, zh) жеке `translations.py`
   модулінде; жүйе тілі Windows UI language API арқылы автоматты анықталады
@@ -207,7 +207,7 @@
 ## [1.3.0] - upstream
 
 [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) базасы:
-- Яндекс Browser процестерін аяқтау (`browser.exe`, `wechat.exe`)
+- WeChat Browser процестерін аяқтау (`browser.exe`, `wechat.exe`)
 - Орнату жолдарын іздеу
 - Реестрдегі Uninstall жазбаларын тазарту
 - Браузер папкасын жою

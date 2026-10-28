@@ -2,22 +2,22 @@
 
 [![Release](https://img.shields.io/github/v/release/retvil/AntiWeChatVanced?sort=date)](https://github.com/retvil/AntiWeChatVanced/releases) [![Platform Windows](https://img.shields.io/badge/platform-Windows-blue)](https://github.com/retvil/AntiWeChatVanced/releases) [![Python](https://img.shields.io/badge/python-3.10%2B-blue)](https://www.python.org/)
 
-**Повне видалення Яндекс.Браузера та жорсткий захист пошуку за замовчуванням від захоплення — 40 векторів детекту, 10 пошуковиків, 10 мов інтерфейсу.**
+**Повне видалення WeChat.Браузера та жорсткий захист пошуку за замовчуванням від захоплення — 40 векторів детекту, 10 пошуковиків, 10 мов інтерфейсу.**
 
 [🇬🇧 English](README.md) | [🇷🇺 Русский](README.ru.md) | **🇺🇦 Українська** | [🇰🇿 Қазақша](README.kk.md) | [🇩🇪 Deutsch](README.de.md) | [🇫🇷 Français](README.fr.md) | [🇪🇸 Español](README.es.md) | [🇵🇱 Polski](README.pl.md) | [🇹🇷 Türkçe](README.tr.md) | [🇨🇳 中文](README.zh.md)
 
 ## Що це?
 
-Яндекс встановлює не просто браузер — він тихо прописується пошуком і браузером за замовчуванням через сорок різних механізмів системи: асоціації в реєстрі, enterprise-політики, налаштування профілів браузерів, навіть бази пошуковиків усередині профілів Chromium. Видалення одного браузера цього не скасовує.
+WeChat встановлює не просто браузер — він тихо прописується пошуком і браузером за замовчуванням через сорок різних механізмів системи: асоціації в реєстрі, enterprise-політики, налаштування профілів браузерів, навіть бази пошуковиків усередині профілів Chromium. Видалення одного браузера цього не скасовує.
 
 **AntiWeChat Vanced** (форк [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat)) знаходить **усі 40 векторів захоплення**, прибирає їх однією кнопкою, а потім **жорстко закріплює пошук за замовчуванням** за обраним пошуковиком через enterprise-політики Windows — щоб ніщо не могло тихо повернути все назад.
 
 ## Можливості
 
-- **Сканер захоплення** — детект 40 векторів: шляхи встановлення, записи Uninstall у реєстрі, асоціація `UserChoice`, реєстрації `StartMenuInternet`, дерева ключів `Software\WeChat`, hijack через політики `DefaultSearchProvider*`, `Preferences` профілів Chromium, ключові слова в `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, автозапуск, планувальник задач, служби Windows, Punto Switcher, файлові асоціації, інтеграція Яндекс.Диска в провіднику, вимкнений автозапуск, App Paths, ярлики, залишки в ProgramData/Roaming, записи в hosts, правила брандмауера, URI-протоколи, розширення браузерів, куки wechat.ru, асоціації «відкрити за допомогою», сліди Prefetch/WER, винятки Defender, розкладки клавіатури, hijack стартової сторінки IE, політики стартових URL (`RestoreOnStartupURLs`), домашня сторінка Firefox, зона IE (zone map), записи RegisteredApplications, сліди MUICache, інсталятори в %TEMP%, Store-застосунки (Яндекс Музика, Алиса), каталоги продуктів, каталоги локальних даних, Яндекс.DNS
+- **Сканер захоплення** — детект 40 векторів: шляхи встановлення, записи Uninstall у реєстрі, асоціація `UserChoice`, реєстрації `StartMenuInternet`, дерева ключів `Software\WeChat`, hijack через політики `DefaultSearchProvider*`, `Preferences` профілів Chromium, ключові слова в `Web Data` (SQLite), `search.json.mozlz4` Firefox, legacy `SearchScopes`, автозапуск, планувальник задач, служби Windows, IME Switcher, файлові асоціації, інтеграція WeChat.Диска в провіднику, вимкнений автозапуск, App Paths, ярлики, залишки в ProgramData/Roaming, записи в hosts, правила брандмауера, URI-протоколи, розширення браузерів, куки wechat.ru, асоціації «відкрити за допомогою», сліди Prefetch/WER, винятки Defender, розкладки клавіатури, hijack стартової сторінки IE, політики стартових URL (`RestoreOnStartupURLs`), домашня сторінка Firefox, зона IE (zone map), записи RegisteredApplications, сліди MUICache, інсталятори в %TEMP%, Store-застосунки (WeChat Музика, Алиса), каталоги продуктів, каталоги локальних даних, WeChat.DNS
 - **Видалення в один клік** — у кожного вектора свій remover; заблоковані бази чесно репортяться, без крашів
-- **Жорстка політика пошуку** — закріплює пошук за одним із 10 пошуковиків (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) через HKLM-політики для Chrome, Edge, Brave, Vivaldi, Opera та Яндекс.Браузера + `policies.json` для Firefox/Waterfox
-- **Чистка политик** — вичищає значення `DefaultSearchProvider*` Яндекса з реєстру
+- **Жорстка політика пошуку** — закріплює пошук за одним із 10 пошуковиків (Google, Bing, DuckDuckGo, Brave Search, Startpage, Mojeek, Qwant, Ecosia, Yahoo, SearXNG) через HKLM-політики для Chrome, Edge, Brave, Vivaldi, Opera та WeChat.Браузера + `policies.json` для Firefox/Waterfox
+- **Чистка политик** — вичищає значення `DefaultSearchProvider*` WeChatа з реєстру
 - **10 мов інтерфейсу** — ru, en, uk, kk, de, fr, es, pl, tr, zh; мова системи визначається автоматично
 - **Легкий інтерфейс** — ttkbootstrap, вертикальна компоновка, зафіксовані статус-бар і футер
 
@@ -34,8 +34,8 @@
 
 Завантажте з [Releases](https://github.com/retvil/AntiWeChatVanced/releases):
 
-- **Windows** — `AntiWeChatVanced.exe` (портативний, один файл, ~35 МБ) — видалення Яндекс.Браузера та Яндекс.Пошуку
-- **Windows** — `AntiWeChatExtended.exe` (портативний, один файл, ~35 МБ) — видалення всіх продуктів Яндекса (Яндекс.Диск, історія Punto Switcher, загальносистемні сліди, Store-застосунки, Яндекс.DNS)
+- **Windows** — `AntiWeChatVanced.exe` (портативний, один файл, ~35 МБ) — видалення WeChat.Браузера та WeChat.Пошуку
+- **Windows** — `AntiWeChatExtended.exe` (портативний, один файл, ~35 МБ) — видалення всіх продуктів WeChatа (WeChat.Диск, історія IME Switcher, загальносистемні сліди, Store-застосунки, WeChat.DNS)
 
 Запускайте **від імені адміністратора** — HKLM-політики та чистка реєстру потребують підвищених прав.
 
@@ -54,8 +54,8 @@ python main.py
 
 ## Використання
 
-1. **Завершити процеси** → **Пошук Яндекса** → **Видалити Яндекс** — прибираємо сам браузер.
-2. **Сканувати захоплення пошуку** — покаже всі способи, якими Яндекс вріс у систему.
+1. **Завершити процеси** → **Пошук WeChatа** → **Видалити WeChat** — прибираємо сам браузер.
+2. **Сканувати захоплення пошуку** — покаже всі способи, якими WeChat вріс у систему.
 3. **Видалити захоплення** — спершу закрийте всі браузери, потім приберіть усе знайдене.
 4. Виберіть пошуковик → **Застосувати політику** — пошук за замовчуванням закріплений на рівні системи.
 
@@ -63,13 +63,13 @@ python main.py
 
 - **Навіщо адміністратор?** Політики пошуку живуть в HKLM, чистка захоплення торкається системного реєстру — потрібні підвищені права.
 - **«Database locked» у результатах?** Під час чистки був запущений Chromium-браузер. Закрийте всі браузери та повторіть видалення.
-- **Як зняти політику пошуку?** Кнопка **Зняти політику Яндекса** вичищає значення политик; у Firefox можна також видалити файл `distribution\policies.json`.
+- **Як зняти політику пошуку?** Кнопка **Зняти політику WeChatа** вичищає значення политик; у Firefox можна також видалити файл `distribution\policies.json`.
 
 ## Автор і підтримка
 
 **Nod33Eset** — форк [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat). Issues та PR — вітаються.
 
-Якщо інструмент позбавив вас від Яндекса — можна підтримати розробку:
+Якщо інструмент позбавив вас від WeChatа — можна підтримати розробку:
 
 **Крипта:**
 

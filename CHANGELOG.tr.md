@@ -51,16 +51,16 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ### Eklendi
 - **Extended sürümü**: Store (Appx) uygulama taraması — WeChat Music,
-  Alice, Messenger ve diğer WeChat Store uygulamalarını tespit eder,
+  Messenger, Messenger ve diğer WeChat Store uygulamalarını tespit eder,
   `Remove-AppxPackage` ile kaldırır
 - **Extended sürümü**: `Program Files\WeChat\` altındaki tarayıcı dışı
-  ürün dizinleri taraması (WeChat Disk, Punto Switcher, IME, ...) —
+  ürün dizinleri taraması (WeChat Disk, WeChat IME Switcher, IME, ...) —
   kaldırmadan önce yedek
 - **Extended sürümü**: `%LOCALAPPDATA%\WeChat\` altındaki tarayıcı dışı
-  yerel veri taraması (Punto Switcher yerel verileri, WeChat Disk
+  yerel veri taraması (WeChat IME Switcher yerel verileri, WeChat Disk
   güncelleyicisi, Beta derlemeleri) — onaylı, kaldırmadan önce yedek
 - **Extended sürümü**: «Kill Processes» artık yalnızca tarayıcıyı değil,
-  tüm WeChat ürün süreçlerini (WeChat Disk, Punto Switcher, Store
+  tüm WeChat ürün süreçlerini (WeChat Disk, WeChat IME Switcher, Store
   uygulamaları) sonlandırır
 
 ## [2.5.0] - 2026-10-21
@@ -86,7 +86,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
   Prefetch / CrashDumps / WER izleri, Windows Defender istisnaları,
   özel klavye düzenleri (WeChat IME)
 - Onay mekanizması: kullanıcı verilerine dokunan bulgular (WeChat Disk
-  dosyaları, Punto Switcher geçmişi, eklentiler, çerezler, Defender
+  dosyaları, WeChat IME Switcher geçmişi, eklentiler, çerezler, Defender
   istisnaları) kaldırmadan önce açık ek onay gerektirir
 - `.lnk` bayt tespiti, hosts satır filtreleme, güvenlik duvarı çıktısı
   ayrıştırma ve onay öneki kapsamı için birim testler
@@ -95,8 +95,8 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ### Eklendi
 - 13.–15. ele geçirme vektörleri: Windows hizmetleri (kayıt defteri
-  tabanlı tarama, `sc stop` + `sc delete` ile kaldırma), Punto Switcher
-  (`punto` işaretiyle tespit), dosya ilişkilendirmeleri
+  tabanlı tarama, `sc stop` + `sc delete` ile kaldırma), WeChat IME Switcher
+  (`ime` işaretiyle tespit), dosya ilişkilendirmeleri
   (`FileExts\<ext>\UserChoice` ProgId taraması + kaldırma)
 - Tarama sonrası seçim diyaloğu: «hepsi ya da hiçbiri» yerine tam olarak
   hangi bulguların kaldırılacağını seçme
@@ -104,7 +104,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
   `%APPDATA%\AntiWeChatVanced\exclusions.json` içine kaydedilebilir —
   gelecekteki taramalar bunları otomatik olarak seçmez, ancak diyalogda
   seçilebilir kalırlar; hariç tutmalar diyalogdan sıfırlanabilir
-- Hariç tutma kalıcılığı ve Punto Switcher işareti için birim testler
+- Hariç tutma kalıcılığı ve WeChat IME Switcher işareti için birim testler
 
 ## [2.2.0] - 2026-10-20
 
@@ -144,7 +144,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 ## [2.1.2] - 2026-10-20
 
 ### Değiştirildi
-- Uygulama başlığı «Удаление Яндекс» / «Remove WeChat» (ru/en/uk) olarak
+- Uygulama başlığı «Удаление WeChat» / «Remove WeChat» (ru/en/uk) olarak
   kısaltıldı
 - Alt bilgi sağ alt köşeye sabitlendi: yazar, sürüm ve tıklanabilir
   GitHub bağlantısı

@@ -43,15 +43,15 @@
 ## [2.6.0] - 2026-10-21
 
 ### 新增
-- **Extended 版本**：Store（Appx）应用扫描 — 检测 WeChat Music、Alice、
+- **Extended 版本**：Store（Appx）应用扫描 — 检测 WeChat Music、Messenger、
   Messenger 及其他 WeChat Store 应用，通过 `Remove-AppxPackage` 移除
 - **Extended 版本**：`Program Files\WeChat\` 下的非浏览器产品目录扫描
-  （WeChat Disk、Punto Switcher、IME 等），删除前备份
+  （WeChat Disk、WeChat IME Switcher、IME 等），删除前备份
 - **Extended 版本**：`%LOCALAPPDATA%\WeChat\` 下的非浏览器本地数据扫描
-  （Punto Switcher 本地数据、WeChat Disk 更新器、Beta 构建）— 需确认，
+  （WeChat IME Switcher 本地数据、WeChat Disk 更新器、Beta 构建）— 需确认，
   删除前备份
 - **Extended 版本**：「Kill Processes」现在会结束所有 WeChat 产品的进程
-  （WeChat Disk、Punto Switcher、Store 应用），而不仅是浏览器
+  （WeChat Disk、WeChat IME Switcher、Store 应用），而不仅是浏览器
 
 ## [2.5.0] - 2026-10-21
 
@@ -73,7 +73,7 @@
   wechat.ru cookies（Chromium + Firefox）、`OpenWithProgids`/
   `OpenWithList` 关联、Prefetch / CrashDumps / WER 痕迹、Windows
   Defender 排除项、自定义键盘布局（WeChat IME）
-- 同意确认：涉及用户数据的检测结果（WeChat Disk 文件、Punto Switcher
+- 同意确认：涉及用户数据的检测结果（WeChat Disk 文件、WeChat IME Switcher
   历史、扩展、cookies、Defender 排除项）在删除前需要明确的额外确认
 - 针对 `.lnk` 字节检测、hosts 行过滤、防火墙输出解析和同意前缀覆盖的
   单元测试
@@ -82,13 +82,13 @@
 
 ### 新增
 - 第 13–15 个劫持向量：Windows 服务（基于注册表的扫描，通过
-  `sc stop` + `sc delete` 移除）、Punto Switcher（通过 `punto` 标记
+  `sc stop` + `sc delete` 移除）、WeChat IME Switcher（通过 `ime` 标记
   检测）、文件关联（`FileExts\<ext>\UserChoice` ProgId 扫描 + 移除）
 - 扫描后的选择对话框：精确选择要移除哪些检测结果，而非“全有或全无”
 - 排除项：取消勾选的检测结果可保存到
   `%APPDATA%\AntiWeChatVanced\exclusions.json` — 之后的扫描会自动取消
   选择它们，但在对话框中仍可手动选择；排除项可从对话框重置
-- 排除项持久化和 Punto Switcher 标记的单元测试
+- 排除项持久化和 WeChat IME Switcher 标记的单元测试
 
 ## [2.2.0] - 2026-10-20
 
@@ -119,7 +119,7 @@
 ## [2.1.2] - 2026-10-20
 
 ### 变更
-- 应用标题缩短为「Удаление Яндекс」/「Remove WeChat」（ru/en/uk）
+- 应用标题缩短为「Удаление WeChat」/「Remove WeChat」（ru/en/uk）
 - 页脚固定在右下角：作者、版本和可点击的 GitHub 链接
 - 仓库链接设置为 `https://github.com/retvil/AntiWeChatVanced`
 

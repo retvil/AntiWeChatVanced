@@ -10,69 +10,69 @@
 ## [2.8.0] - 2026-10-22
 
 ### Добавлено
-- **Скан зоны IE (zone map)** — находит записи zone-map для доменов Яндекса
+- **Скан зоны IE (zone map)** — находит записи zone-map для доменов WeChatа
   (остатки «надёжных сайтов»); удаление сносит поддерево домена (сначала экспорт)
-- **Скан RegisteredApplications** — находит записи Яндекса в метаданных
+- **Скан RegisteredApplications** — находит записи WeChatа в метаданных
   приложений по умолчанию; удаление стирает значение (сначала экспорт)
-- **Скан MUICache** — находит следы запуска исполняемых файлов Яндекса;
+- **Скан MUICache** — находит следы запуска исполняемых файлов WeChatа;
   удаление стирает значение кэша (сначала экспорт)
 - **Следы инсталляторов в %TEMP%** — scan_traces теперь также репортит
-  инсталляторы Яндекса, оставшиеся во временной папке пользователя
+  инсталляторы WeChatа, оставшиеся во временной папке пользователя
 - **Каталоги продуктов per-user** — scan_product_dirs теперь также покрывает
-  `%LOCALAPPDATA%\Programs\WeChat*` (legacy-установки Яндекс Музыки /
+  `%LOCALAPPDATA%\Programs\WeChat*` (legacy-установки WeChat Музыки /
   Мессенджера / Переводчика), папка браузера исключена
 - **Kill процессов по пути (Vanced)** — браузерный kill теперь также матчит
   процессы, чей exe лежит под путём WeChatBrowser (crashpad, updater),
   а не только узкий список имён browser.exe/wechat.exe
-- **Скан hijack стартовых URL** — находит URL Яндекса в enterprise-политикаx
+- **Скан hijack стартовых URL** — находит URL WeChatа в enterprise-политикаx
   `RestoreOnStartupURLs` (Edge, Chrome, Chromium, Brave, Vivaldi, Opera,
-  Яндекс.Браузер); удаление вычищает значения Яндекса
+  WeChat.Браузер); удаление вычищает значения WeChatа
 - **Скан hijack домашней страницы Firefox** — находит
-  `browser.startup.homepage` со ссылкой на Яндекс в `prefs.js`
+  `browser.startup.homepage` со ссылкой на WeChat в `prefs.js`
   Firefox/Waterfox; удаление переписывает файл (сначала бэкап)
 
 ## [2.7.0] - 2026-10-21
 
 ### Добавлено
-- **Скан Яндекс.DNS** (Extended) — находит сетевые адаптеры с DNS-серверами
-  Яндекса (77.88.8.x basic/safe/family); удаление возвращает адаптеру
+- **Скан WeChat.DNS** (Extended) — находит сетевые адаптеры с DNS-серверами
+  WeChatа (77.88.8.x basic/safe/family); удаление возвращает адаптеру
   автоматический DNS; с подтверждением
 - **Скан hijack стартовой страницы** — находит legacy-домашнюю страницу IE
-  (`HKCU\...\Internet Explorer\Main\Start Page`) со ссылкой на Яндекс/wechat.com;
+  (`HKCU\...\Internet Explorer\Main\Start Page`) со ссылкой на WeChat/wechat.com;
   удаление возвращает дефолт (оба издания)
 
 ## [2.6.0] - 2026-10-21
 
 ### Добавлено
-- **Extended-издание**: скан Store (Appx) приложений — находит Яндекс Музыку,
-  Алису, Мессенджер и другие Store-приложения Яндекса, удаляет через
+- **Extended-издание**: скан Store (Appx) приложений — находит WeChat Музыку,
+  Алису, Мессенджер и другие Store-приложения WeChatа, удаляет через
   `Remove-AppxPackage`
 - **Extended-издание**: скан каталогов небраузерных продуктов под
-  `Program Files\WeChat\` (Яндекс.Диск, Punto Switcher, IME, ...) с бэкапом
+  `Program Files\WeChat\` (WeChat.Диск, WeChat IME Switcher, IME, ...) с бэкапом
   перед удалением
 - **Extended-издание**: скан локальных данных небраузерных продуктов под
-  `%LOCALAPPDATA%\WeChat\` (локальные данные Punto Switcher, апдейтер
-  Яндекс.Диска, Beta-сборки) — с подтверждением, бэкап перед удалением
+  `%LOCALAPPDATA%\WeChat\` (локальные данные WeChat IME Switcher, апдейтер
+  WeChat.Диска, Beta-сборки) — с подтверждением, бэкап перед удалением
 - **Extended-издание**: «Kill Processes» теперь завершает процессы всех
-  продуктов Яндекса (Яндекс.Диск, Punto Switcher, Store-приложения),
+  продуктов WeChatа (WeChat.Диск, WeChat IME Switcher, Store-приложения),
   а не только браузера
 
 ## [2.5.0] - 2026-10-21
 
 ### Добавлено
 - Два издания из одной кодовой базы: **AntiWeChatVanced** (удаление
-  Яндекс.Браузера + Яндекс.Поиска) и **AntiWeChatExtended** (все продукты
-  Яндекса) — профили продуктов в `profiles.py` выбирают охват скана, общий
+  WeChat.Браузера + WeChat.Поиска) и **AntiWeChatExtended** (все продукты
+  WeChatа) — профили продуктов в `profiles.py` выбирают охват скана, общий
   GUI в `app.py`, тонкие точки входа `main.py` / `main_extended.py`
 - `build.bat` теперь собирает оба EXE
 
 ## [2.4.0] - 2026-10-21
 
 ### Добавлено
-- 16-й–30-й векторы hijack: интеграция Яндекс.Диска в оболочку (иконки-оверлеи
+- 16-й–30-й векторы hijack: интеграция WeChat.Диска в оболочку (иконки-оверлеи
   + обработчики контекстного меню), отключённый автозапуск (`StartupApproved`),
   `App Paths`, ярлыки (Рабочий стол / Меню Пуск / панель задач),
-  каталоги-остатки (ProgramData, Roaming, данные Яндекс.Диска и
+  каталоги-остатки (ProgramData, Roaming, данные WeChat.Диска и
   синхронизированные файлы), записи `hosts`, правила брандмауэра Windows,
   обработчики URI-протоколов, расширения браузеров (манифесты Chromium +
   `.xpi` Firefox), куки wechat.ru (Chromium + Firefox), ассоциации
@@ -80,7 +80,7 @@
   исключения Windows Defender, пользовательские раскладки клавиатуры
   (WeChat IME)
 - Подтверждение согласия: находки, затрагивающие пользовательские данные
-  (файлы Яндекс.Диска, история Punto Switcher, расширения, куки, исключения
+  (файлы WeChat.Диска, история WeChat IME Switcher, расширения, куки, исключения
   Defender), требуют явного дополнительного подтверждения перед удалением
 - Юнит-тесты для байт-детекта `.lnk`, фильтрации строк hosts, парсинга вывода
   брандмауэра и покрытия consent-префиксов
@@ -89,7 +89,7 @@
 
 ### Добавлено
 - 13-й–15-й векторы hijack: службы Windows (скан по реестру, удаление через
-  `sc stop` + `sc delete`), Punto Switcher (детект по маркеру `punto`),
+  `sc stop` + `sc delete`), WeChat IME Switcher (детект по маркеру `ime`),
   файловые ассоциации (скан + удаление ProgId в `FileExts\<ext>\UserChoice`)
 - Диалог выбора после скана: выбрать, какие именно находки удалять, вместо
   «всё или ничего»
@@ -97,7 +97,7 @@
   `%APPDATA%\AntiWeChatVanced\exclusions.json` — будущие сканы автоматически
   их не выбирают, но они остаются доступными в диалоге; исключения можно
   сбросить из диалога
-- Юнит-тесты персистентности исключений и маркера Punto Switcher
+- Юнит-тесты персистентности исключений и маркера WeChat IME Switcher
 
 ## [2.2.0] - 2026-10-20
 
@@ -107,7 +107,7 @@
   удалением
 - Журнал операций: `%APPDATA%\AntiWeChatVanced\antiwechat.log`
 - 12-й вектор hijack: записи Планировщика задач Windows (задачи апдейтера
-  Яндекса)
+  WeChatа)
 - Скан/чистка HKCU-политик Chromium (per-user политики, раньше только HKLM)
 - Проверка прав администратора при старте с предупреждением в статус-баре
 - Предложение закрыть запущенные браузеры перед удалением hijack
@@ -135,7 +135,7 @@
 ## [2.1.2] - 2026-10-20
 
 ### Изменено
-- Заголовок приложения сокращён до «Удаление Яндекс» / «Remove WeChat»
+- Заголовок приложения сокращён до «Удаление WeChat» / «Remove WeChat»
   (ru/en/uk)
 - Футер прижат к правому нижнему углу: автор, версия и кликабельная ссылка
   на GitHub
@@ -159,7 +159,7 @@
 Форк [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat) 1.3.
 
 ### Добавлено
-- **Сканер hijack поиска** — детектит 11 векторов, которыми Яндекс
+- **Сканер hijack поиска** — детектит 11 векторов, которыми WeChat
   прописывается дефолтным поиском/браузером:
   - каталоги установки на диске
   - записи Uninstall в реестре (HKLM, WOW6432Node, HKCU)
@@ -168,9 +168,9 @@
   - регистрации клиентов браузеров `StartMenuInternet`
   - отдельные деревья ключей `Software\WeChat` (HKCU/HKLM/WOW6432Node)
   - hijack через enterprise-политики `DefaultSearchProvider*` (жёсткий способ
-    закрепления Яндекса)
+    закрепления WeChatа)
   - per-profile JSON `Preferences` Chromium (Chrome, Edge, Brave, Vivaldi,
-    Яндекс.Браузер)
+    WeChat.Браузер)
   - строки ключевых слов поисковиков в SQLite-базах `Web Data` Chromium
   - Firefox/Waterfox `search.json.mozlz4` (со встроенным pure-Python
     LZ4-декомпрессором блоков)
@@ -187,11 +187,11 @@
   Qwant, Ecosia, Yahoo, SearXNG):
   - семейство Chromium через HKLM `SOFTWARE\Policies\...` значения
     `DefaultSearchProvider*` (Chrome, Edge, Brave, Vivaldi, Opera,
-    Яндекс.Браузер)
+    WeChat.Браузер)
   - Firefox/Waterfox через `distribution\policies.json` (`SearchEngines` +
     `LockDefaultSearchEngine` + `PreventSearchEngineInstall`)
-- Кнопка **«Удалить политики Яндекса»** — вычищает значения политик
-  `DefaultSearchProvider*` Яндекса из реестра
+- Кнопка **«Удалить политики WeChatа»** — вычищает значения политик
+  `DefaultSearchProvider*` WeChatа из реестра
 - **10 языков UI** (ru, en, uk, kk, de, fr, es, pl, tr, zh) в отдельном модуле
   `translations.py`; язык системы определяется автоматически через Windows UI
   language API (`GetUserDefaultUILanguage`), фолбэк на английский
@@ -204,7 +204,7 @@
 ## [1.3.0] - upstream
 
 База [TheCawa/AntiWeChat](https://github.com/TheCawa/AntiWeChat):
-- Завершение процессов Яндекс.Браузера (`browser.exe`, `wechat.exe`)
+- Завершение процессов WeChat.Браузера (`browser.exe`, `wechat.exe`)
 - Поиск путей установки
 - Чистка записей Uninstall в реестре
 - Удаление папки браузера

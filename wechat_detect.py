@@ -764,10 +764,10 @@ def scan_firewall_rules() -> list[str]:
 
 
 def scan_uri_protocols() -> list[str]:
-    """URI protocol handlers registered by WeChat (wechatdisk://, ya://, ProgIDs)."""
+    """URI protocol handlers registered by WeChat (wechatdisk://, ProgIDs)."""
     found = []
     for name in _reg_enum_subkey_names(winreg.HKEY_CLASSES_ROOT, ""):
-        if _is_wechat(name) or name.lower() == "ya":
+        if _is_wechat(name):
             found.append(f"Protocol: SOFTWARE\\Classes\\{name}")
     return found
 
