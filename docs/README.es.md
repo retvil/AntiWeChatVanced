@@ -26,7 +26,7 @@ WeChat no instala solo un navegador — se registra silenciosamente como buscado
 <details>
 <summary>Ventana principal</summary>
 
-![Ventana principal de AntiWeChatVanced](docs/screenshot.png)
+![Ventana principal de AntiWeChatVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Si la herramienta te libró de WeChat, puedes apoyar el desarrollo:
 
 ## Licencia
 
-MIT — ver [LICENSE](LICENSE).
+MIT — ver [LICENSE](../LICENSE).
 
 
 

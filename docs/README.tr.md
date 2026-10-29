@@ -26,7 +26,7 @@ WeChat yalnızca bir tarayıcı kurmaz — kırk farklı sistem mekanizmasıyla 
 <details>
 <summary>Ana pencere</summary>
 
-![AntiWeChatVanced ana penceresi](docs/screenshot.png)
+![AntiWeChatVanced ana penceresi](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Araç sizi WeChat'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
 ## Lisans
 
-MIT — bkz. [LICENSE](LICENSE).
+MIT — bkz. [LICENSE](../LICENSE).
 
 
 

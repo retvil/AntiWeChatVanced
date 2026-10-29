@@ -26,7 +26,7 @@ WeChat installiert nicht nur einen Browser — es trägt sich still über vierzi
 <details>
 <summary>Hauptfenster</summary>
 
-![AntiWeChatVanced Hauptfenster](docs/screenshot.png)
+![AntiWeChatVanced Hauptfenster](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Wenn dich das Tool von WeChat befreit hat, kannst du die Entwicklung unterstütz
 
 ## Lizenz
 
-MIT — siehe [LICENSE](LICENSE).
+MIT — siehe [LICENSE](../LICENSE).
 
 
 

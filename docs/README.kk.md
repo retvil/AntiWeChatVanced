@@ -26,7 +26,7 @@ WeChat жай ғана браузер орнатпайды — ол жүйені
 <details>
 <summary>Негізгі терезе</summary>
 
-![AntiWeChatVanced негізгі терезесі](docs/screenshot.png)
+![AntiWeChatVanced негізгі терезесі](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — қ. [LICENSE](LICENSE).
+MIT — қ. [LICENSE](../LICENSE).
 
 
 

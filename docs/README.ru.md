@@ -26,7 +26,7 @@ WeChat ставит не просто браузер — он тихо проп�
 <details>
 <summary>Главное окно</summary>
 
-![Главное окно AntiWeChatVanced](docs/screenshot.png)
+![Главное окно AntiWeChatVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ python main.py
 
 ## Лицензия
 
-MIT — см. [LICENSE](LICENSE).
+MIT — см. [LICENSE](../LICENSE).
 
 
 

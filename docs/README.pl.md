@@ -26,7 +26,7 @@ WeChat nie instaluje tylko przeglądarki — po cichu rejestruje się jako domy�
 <details>
 <summary>Okno główne</summary>
 
-![Okno główne AntiWeChatVanced](docs/screenshot.png)
+![Okno główne AntiWeChatVanced](screenshot.png)
 
 </details>
 
@@ -81,7 +81,7 @@ Jeśli narzędzie uwolniło Cię od WeChata — możesz wesprzeć rozwój:
 
 ## Licencja
 
-MIT — zob. [LICENSE](LICENSE).
+MIT — zob. [LICENSE](../LICENSE).
 
 
 
