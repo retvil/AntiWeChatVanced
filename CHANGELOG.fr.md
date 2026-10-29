@@ -175,7 +175,7 @@ et ce projet adhère au [Semantic Versioning](https://semver.org/spec/v2.0.0.htm
 
 ## [2.0.0] - 2026-10-20
 
-Fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
+Fork de [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3.
 
 ### Ajouté
 - **Scanner de détournement de recherche** — détecte les 11 vecteurs par
@@ -225,7 +225,7 @@ Fork de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ## [1.3.0] - upstream
 
-Base de [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) :
+Base de [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) :
 - Terminaison des processus de WeChat Browser (`browser.exe`, `wechat.exe`)
 - Recherche des chemins d'installation
 - Nettoyage des entrées Uninstall du registre

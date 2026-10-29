@@ -166,7 +166,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 çatalı.
+[retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3 çatalı.
 
 ### Eklendi
 - **Arama ele geçirme tarayıcısı** — WeChat'in varsayılan
@@ -215,7 +215,7 @@ hazırlanmıştır ve bu proje [Semantic Versioning](https://semver.org/spec/v2.
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) tabanı:
+[retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) tabanı:
 - WeChat Browser süreçlerinin sonlandırılması (`browser.exe`, `wechat.exe`)
 - Kurulum yollarının aranması
 - Kayıt defterindeki Uninstall girdilerinin temizlenmesi

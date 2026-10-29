@@ -137,7 +137,7 @@
 
 ## [2.0.0] - 2026-10-20
 
-[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3 的 fork。
+[retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3 的 fork。
 
 ### 新增
 - **搜索劫持扫描器** — 检测 WeChat 用来安装为默认搜索/浏览器的 11 个
@@ -181,7 +181,7 @@
 
 ## [1.3.0] - upstream
 
-[TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 基线：
+[retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 基线：
 - 结束 WeChat 浏览器进程（`browser.exe`、`wechat.exe`）
 - 搜索安装路径
 - 清理注册表 Uninstall 条目

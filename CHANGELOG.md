@@ -141,7 +141,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2026-10-20
 
-Fork of [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
+Fork of [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3.
 
 ### Added
 - **Search hijack scanner** — detects 11 vectors WeChat uses to install itself as default search/browser:
@@ -177,7 +177,7 @@ Fork of [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ## [1.3.0] - upstream
 
-Baseline from [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
+Baseline from [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced):
 - WeChat Browser process termination (`browser.exe`, `wechat.exe`)
 - Installation path search
 - Uninstall registry entry cleanup

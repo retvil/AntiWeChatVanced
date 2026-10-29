@@ -165,7 +165,7 @@ und dieses Projekt folgt [Semantic Versioning](https://semver.org/spec/v2.0.0.ht
 
 ## [2.0.0] - 2026-10-20
 
-Fork von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
+Fork von [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced) 1.3.
 
 ### Hinzugefügt
 - **Such-Hijack-Scanner** — erkennt 11 Vektoren, mit denen WeChat sich als
@@ -214,7 +214,7 @@ Fork von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex) 1.3.
 
 ## [1.3.0] - upstream
 
-Basis von [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex):
+Basis von [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced):
 - Beendigung der WeChat-Browser-Prozesse (`browser.exe`, `wechat.exe`)
 - Suche nach Installationspfaden
 - Bereinigung der Uninstall-Registry-Einträge
