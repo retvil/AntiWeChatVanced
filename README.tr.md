@@ -67,7 +67,7 @@ Kendi EXE'nizi derlemek için: `build.bat` çalıştırın (PyInstaller, çıkt�
 
 ## Yazar ve destek
 
-Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
+Изначальная идея: [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)
 
 Araç sizi WeChat'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 
@@ -82,6 +82,8 @@ Araç sizi WeChat'ten kurtardıysa, geliştirmeyi destekleyebilirsiniz:
 ## Lisans
 
 MIT — bkz. [LICENSE](LICENSE).
+
+
 
 
 

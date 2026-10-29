@@ -67,7 +67,7 @@ python main.py
 
 ## Автор і підтримка
 
-Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
+Изначальная идея: [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)
 
 Якщо інструмент позбавив вас від WeChatа — можна підтримати розробку:
 
@@ -82,6 +82,9 @@ python main.py
 ## Ліцензія
 
 MIT — див. [LICENSE](LICENSE).
+
+
+
 
 
 

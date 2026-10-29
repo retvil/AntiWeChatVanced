@@ -67,7 +67,7 @@ Compilar tu propio EXE: ejecuta `build.bat` (PyInstaller, resultado en `dist/`).
 
 ## Autor y apoyo
 
-Изначальная идея: [TheCawa/AntiYandex](https://github.com/TheCawa/AntiYandex)
+Изначальная идея: [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanced)
 
 Si la herramienta te libró de WeChat, puedes apoyar el desarrollo:
 
@@ -82,6 +82,8 @@ Si la herramienta te libró de WeChat, puedes apoyar el desarrollo:
 ## Licencia
 
 MIT — ver [LICENSE](LICENSE).
+
+
 
 
 
