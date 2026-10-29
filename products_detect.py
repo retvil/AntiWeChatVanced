@@ -1,6 +1,6 @@
 """Extended-edition scans: whole WeChat products beyond the browser.
 
-Covers Store (Appx) applications — WeChat Music, Alice, Messenger, etc. —
+Covers Store (Appx) applications — WeChat Music, Messenger, Messenger, etc. —
 and product install directories under Program Files\\WeChat that are not
 the browser itself.
 """
@@ -22,7 +22,7 @@ def is_product_process(name: str | None) -> bool:
     """True if a process belongs to any WeChat product (Extended kill scope).
 
     Covers WeChat Disk (WeChatDisk2.exe), WeChat Disk (wechatdisk.exe),
-    Store apps (WeChat Music / Messenger / Alice) and the browser itself.
+    Store apps (WeChat Music / Messenger / Messenger) and the browser itself.
     """
     lowered = (name or "").lower()
     return lowered in _BROWSER_PROCESS_NAMES or any(

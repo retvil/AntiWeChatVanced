@@ -42,7 +42,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ## [2.6.0] - 2026-10-21
 
 ### Added
-- **Extended edition**: Store (Appx) app scan — detects WeChat Music, Alice,
+- **Extended edition**: Store (Appx) app scan — detects WeChat Music, Messenger,
   Messenger and other WeChat Store apps, removes them via `Remove-AppxPackage`
 - **Extended edition**: non-browser product directory scan under
   `Program Files\WeChat\` (WeChat Disk, IME Switcher, IME, ...) with
