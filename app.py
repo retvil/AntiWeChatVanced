@@ -31,7 +31,7 @@ LANG_ICON_ITEMS: list[tuple[str, str, str]] = [
     ("es", "🇪🇸", "Español"), ("pl", "🇵🇱", "Polski"), ("tr", "🇹🇷", "Türkçe"),
     ("zh", "🇨🇳", "中文"),
 ]
-APP_VERSION = "1.1.0"
+APP_VERSION = "1.2.0"
 APP_AUTHOR = "Nod33Eset"
 GITHUB_URL = "https://github.com/retvil/AntiWeChatVanced"
 
@@ -565,5 +565,6 @@ def run(profile_name: str) -> None:
         update_status(t("warn_no_admin"), STATUS_COLORS["warn"])
 
     root.mainloop()
+
 
 

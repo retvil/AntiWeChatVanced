@@ -1,3 +1,9 @@
+## [1.2.0] - 2026-10-29
+
+### Changed
+- Bumped app version to 1.2.0
+- Consolidated localized README/CHANGELOG into docs/ folder with updated internal links
+
 # Changelog
 
 All notable changes to this project are documented in this file.
@@ -188,5 +194,6 @@ Baseline from [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanc
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 
 
