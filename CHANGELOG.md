@@ -1,3 +1,15 @@
+## [1.3.0] - 2026-11-05
+
+### Added
+- Auto-update check: background fetch of the latest GitHub release + footer download link
+- Restore from backup: replays the last backup session (registry, scheduled tasks, files)
+- Policy watchdog: daily Windows scheduled task that re-applies the selected engine policy
+- Report export: JSON + HTML report of scan findings
+- CLI mode: --scan-only / --apply / --apply-policy / --restore / --install-watchdog / --remove-watchdog / --report
+
+### Changed
+- Bumped app version to 1.3.0
+
 ## [1.2.0] - 2026-10-29
 
 ### Changed
@@ -194,6 +206,7 @@ Baseline from [retvil/AntiYandexVanced](https://github.com/retvil/AntiYandexVanc
 [2.1.2]: https://github.com/retvil/AntiWeChatVanced/compare/v2.1.0...v2.1.2
 [2.1.0]: https://github.com/retvil/AntiWeChatVanced/compare/v2.0.0...v2.1.0
 [2.0.0]: https://github.com/retvil/AntiWeChatVanced/compare/v1.3.0...v2.0.0
+
 
 
 
